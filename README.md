@@ -20,3 +20,9 @@ ALTER TABLE `polls_choice` ADD CONSTRAINT `poll_id_refs_id_3aa09835` FOREIGN KEY
 
 COMMIT;
 
+####
+tutorials 2
+
+user:root
+pass:-minepassword
+
