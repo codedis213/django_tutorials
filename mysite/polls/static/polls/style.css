@@ -1,3 +1,7 @@
 li a {
     color: green;
 }
+
+body {
+    background: white url("images/tortoise_background.jpg") no-repeat right bottom;
+}
