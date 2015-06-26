@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import get_object_or_404, render_to_response, redirect, render
 from django.http import Http404
 from django.http import HttpResponseRedirect, HttpResponse
 from django.core.urlresolvers import reverse
@@ -6,6 +6,29 @@ from django.views import generic
 
 from polls.models import Choice, Poll
 from django.utils import timezone
+
+from django.contrib.auth import logout as auth_logout
+from django.contrib.auth.decorators import login_required
+
+
+def login(request):
+    # context = RequestContext(request, {
+    #     'request': request, 'user': request.user})
+    # return render_to_response('login.html', context_instance=context)
+    return render(request, 'polls/login.html')
+
+
+
+@login_required(login_url='/')
+def home(request):
+    return render_to_response('polls/home.html')
+
+
+def logout(request):
+    auth_logout(request)
+    return redirect('/')
+
+
 
 class IndexView(generic.ListView):
     template_name = 'polls/index.html'

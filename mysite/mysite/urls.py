@@ -11,4 +11,7 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^polls/', include('polls.urls', namespace="polls")),
     url('', include('social.apps.django_app.urls', namespace='social')),
+    url(r'^$', 'polls.views.login'),
+    url(r'^home/$', 'polls.views.home'),
+    url(r'^logout/$', 'polls.views.logout'),
 )
