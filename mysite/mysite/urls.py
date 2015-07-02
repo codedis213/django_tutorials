@@ -14,4 +14,5 @@ urlpatterns = patterns('',
     url(r'^$', 'polls.views.login'),
     url(r'^home/$', 'polls.views.home'),
     url(r'^logout/$', 'polls.views.logout'),
+    (r'^search/', include('haystack.urls')),
 )

@@ -1,0 +1,67 @@
+[2015-06-30 18:06:38,355][INFO ][node                     ] [Monstra] version[1.3.2], pid[14523], build[dee175d/2014-08-13T14:29:30Z]
+[2015-06-30 18:06:38,355][INFO ][node                     ] [Monstra] initializing ...
+[2015-06-30 18:06:38,359][INFO ][plugins                  ] [Monstra] loaded [], sites []
+[2015-06-30 18:06:41,116][INFO ][node                     ] [Monstra] initialized
+[2015-06-30 18:06:41,116][INFO ][node                     ] [Monstra] starting ...
+[2015-06-30 18:06:41,346][INFO ][transport                ] [Monstra] bound_address {inet[/0:0:0:0:0:0:0:0:9301]}, publish_address {inet[/172.16.1.130:9301]}
+[2015-06-30 18:06:41,399][INFO ][discovery                ] [Monstra] elasticsearch/ul5CtA70RsWmussC0yDrTQ
+[2015-06-30 18:06:44,428][INFO ][cluster.service          ] [Monstra] new_master [Monstra][ul5CtA70RsWmussC0yDrTQ][9dim-d0030][inet[/172.16.1.130:9301]], reason: zen-disco-join (elected_as_master)
+[2015-06-30 18:06:44,457][INFO ][http                     ] [Monstra] bound_address {inet[/0:0:0:0:0:0:0:0:9201]}, publish_address {inet[/172.16.1.130:9201]}
+[2015-06-30 18:06:44,457][INFO ][node                     ] [Monstra] started
+[2015-06-30 18:06:44,595][INFO ][gateway                  ] [Monstra] recovered [0] indices into cluster_state
+[2015-06-30 18:54:56,696][INFO ][node                     ] [Agamemnon] version[1.3.2], pid[17512], build[dee175d/2014-08-13T14:29:30Z]
+[2015-06-30 18:54:56,726][INFO ][node                     ] [Agamemnon] initializing ...
+[2015-06-30 18:54:56,742][INFO ][plugins                  ] [Agamemnon] loaded [], sites []
+[2015-06-30 18:55:00,877][INFO ][node                     ] [Agamemnon] initialized
+[2015-06-30 18:55:00,877][INFO ][node                     ] [Agamemnon] starting ...
+[2015-06-30 18:55:02,115][INFO ][transport                ] [Agamemnon] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/172.16.1.130:9300]}
+[2015-06-30 18:55:02,249][INFO ][discovery                ] [Agamemnon] elasticsearch/XcCGKi0dTNGTva6R9UmlQg
+[2015-06-30 18:55:05,930][INFO ][cluster.service          ] [Monstra] added {[Agamemnon][XcCGKi0dTNGTva6R9UmlQg][9dim-d0030][inet[/172.16.1.130:9300]],}, reason: zen-disco-receive(join from node[[Agamemnon][XcCGKi0dTNGTva6R9UmlQg][9dim-d0030][inet[/172.16.1.130:9300]]])
+[2015-06-30 18:55:06,014][INFO ][cluster.service          ] [Agamemnon] detected_master [Monstra][ul5CtA70RsWmussC0yDrTQ][9dim-d0030][inet[/172.16.1.130:9301]], added {[Monstra][ul5CtA70RsWmussC0yDrTQ][9dim-d0030][inet[/172.16.1.130:9301]],}, reason: zen-disco-receive(from master [[Monstra][ul5CtA70RsWmussC0yDrTQ][9dim-d0030][inet[/172.16.1.130:9301]]])
+[2015-06-30 18:55:06,115][INFO ][http                     ] [Agamemnon] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/172.16.1.130:9200]}
+[2015-06-30 18:55:06,116][INFO ][node                     ] [Agamemnon] started
+[2015-06-30 18:56:18,363][INFO ][node                     ] [Monstra] stopping ...
+[2015-06-30 18:56:18,608][INFO ][discovery.zen            ] [Agamemnon] master_left [[Monstra][ul5CtA70RsWmussC0yDrTQ][9dim-d0030][inet[/172.16.1.130:9301]]], reason [shut_down]
+[2015-06-30 18:56:18,610][INFO ][cluster.service          ] [Agamemnon] master {new [Agamemnon][XcCGKi0dTNGTva6R9UmlQg][9dim-d0030][inet[/172.16.1.130:9300]], previous [Monstra][ul5CtA70RsWmussC0yDrTQ][9dim-d0030][inet[/172.16.1.130:9301]]}, removed {[Monstra][ul5CtA70RsWmussC0yDrTQ][9dim-d0030][inet[/172.16.1.130:9301]],}, reason: zen-disco-master_failed ([Monstra][ul5CtA70RsWmussC0yDrTQ][9dim-d0030][inet[/172.16.1.130:9301]])
+[2015-06-30 18:56:18,668][INFO ][node                     ] [Monstra] stopped
+[2015-06-30 18:56:18,668][INFO ][node                     ] [Monstra] closing ...
+[2015-06-30 18:56:18,754][INFO ][node                     ] [Monstra] closed
+[2015-06-30 18:56:35,274][INFO ][node                     ] [Agamemnon] stopping ...
+[2015-06-30 18:56:35,292][INFO ][node                     ] [Agamemnon] stopped
+[2015-06-30 18:56:35,292][INFO ][node                     ] [Agamemnon] closing ...
+[2015-06-30 18:56:35,297][INFO ][node                     ] [Agamemnon] closed
+[2015-06-30 18:56:56,405][INFO ][node                     ] [Sunspot] version[1.3.2], pid[17639], build[dee175d/2014-08-13T14:29:30Z]
+[2015-06-30 18:56:56,405][INFO ][node                     ] [Sunspot] initializing ...
+[2015-06-30 18:56:56,420][INFO ][plugins                  ] [Sunspot] loaded [], sites []
+[2015-06-30 18:56:59,792][INFO ][node                     ] [Sunspot] initialized
+[2015-06-30 18:56:59,792][INFO ][node                     ] [Sunspot] starting ...
+[2015-06-30 18:56:59,992][INFO ][transport                ] [Sunspot] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/172.16.1.130:9300]}
+[2015-06-30 18:57:00,048][INFO ][discovery                ] [Sunspot] elasticsearch/UA3AaU8WQMapjXTLJX2oug
+[2015-06-30 18:57:03,104][INFO ][cluster.service          ] [Sunspot] new_master [Sunspot][UA3AaU8WQMapjXTLJX2oug][9dim-d0030][inet[/172.16.1.130:9300]], reason: zen-disco-join (elected_as_master)
+[2015-06-30 18:57:03,131][INFO ][http                     ] [Sunspot] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/172.16.1.130:9200]}
+[2015-06-30 18:57:03,132][INFO ][node                     ] [Sunspot] started
+[2015-06-30 18:57:03,178][INFO ][gateway                  ] [Sunspot] recovered [0] indices into cluster_state
+[2015-06-30 18:57:51,953][INFO ][node                     ] [Sunspot] stopping ...
+[2015-06-30 18:57:51,978][INFO ][node                     ] [Sunspot] stopped
+[2015-06-30 18:57:51,979][INFO ][node                     ] [Sunspot] closing ...
+[2015-06-30 18:57:51,987][INFO ][node                     ] [Sunspot] closed
+[2015-06-30 18:58:20,009][INFO ][node                     ] [Tempus] version[1.3.2], pid[17743], build[dee175d/2014-08-13T14:29:30Z]
+[2015-06-30 18:58:20,009][INFO ][node                     ] [Tempus] initializing ...
+[2015-06-30 18:58:20,014][INFO ][plugins                  ] [Tempus] loaded [], sites []
+[2015-06-30 18:58:22,459][INFO ][node                     ] [Tempus] initialized
+[2015-06-30 18:58:22,459][INFO ][node                     ] [Tempus] starting ...
+[2015-06-30 18:58:22,574][INFO ][transport                ] [Tempus] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/172.16.1.130:9300]}
+[2015-06-30 18:58:22,588][INFO ][discovery                ] [Tempus] elasticsearch/6Sqcac3gTJCskXBGcoIN4Q
+[2015-06-30 18:58:25,608][INFO ][cluster.service          ] [Tempus] new_master [Tempus][6Sqcac3gTJCskXBGcoIN4Q][9dim-d0030][inet[/172.16.1.130:9300]], reason: zen-disco-join (elected_as_master)
+[2015-06-30 18:58:25,642][INFO ][http                     ] [Tempus] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/172.16.1.130:9200]}
+[2015-06-30 18:58:25,643][INFO ][node                     ] [Tempus] started
+[2015-06-30 18:58:25,786][INFO ][gateway                  ] [Tempus] recovered [0] indices into cluster_state
+[2015-06-30 19:01:53,348][INFO ][cluster.metadata         ] [Tempus] [advisor] creating index, cause [api], shards [5]/[1], mappings []
+[2015-06-30 19:01:53,769][INFO ][cluster.metadata         ] [Tempus] [advisor] create_mapping [modelresult]
+[2015-06-30 19:01:54,449][INFO ][cluster.metadata         ] [Tempus] [advisor] update_mapping [modelresult] (dynamic)
+[2015-06-30 20:14:30,784][INFO ][cluster.metadata         ] [Tempus] [posts] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2015-06-30 20:14:32,269][INFO ][cluster.metadata         ] [Tempus] [posts] update_mapping [blog] (dynamic)
+[2015-06-30 20:43:26,950][INFO ][node                     ] [Tempus] stopping ...
+[2015-06-30 20:43:27,255][INFO ][node                     ] [Tempus] stopped
+[2015-06-30 20:43:27,255][INFO ][node                     ] [Tempus] closing ...
+[2015-06-30 20:43:27,331][INFO ][node                     ] [Tempus] closed
